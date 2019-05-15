@@ -1,6 +1,6 @@
 # GraphQL Schema Linter Extras
 
-Additional rules for [graphql-schema-linter](https://github.com/cjoudrey/graphql-schema-linter,
+Additional rules for [graphql-schema-linter](https://github.com/cjoudrey/graphql-schema-linter),
 including a directive to disable rules for specific nodes of a GraphQL schema.
 
 ## Installation and Usage
