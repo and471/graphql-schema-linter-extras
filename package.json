@@ -1,0 +1,41 @@
+{
+  "name": "graphql-schema-linter-extras",
+  "version": "0.1.0",
+  "description": "Additional rules for graphql-schema-linter",
+  "author": "Morris Brodersen <mb@morrisbrodersen.de> (http://morrisbrodersen.de)",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "format": "prettier --write **/*.js"
+  },
+  "graphql-schema-linter": {
+    "rules": [
+      "lint-directive",
+      "defined-types-are-used",
+      "deprecations-have-a-reason",
+      "enum-values-all-caps",
+      "enum-values-have-descriptions",
+      "enum-values-sorted-alphabetically",
+      "fields-are-camel-cased",
+      "fields-have-descriptions",
+      "input-object-values-are-camel-cased",
+      "input-object-values-have-descriptions",
+      "types-are-capitalized",
+      "types-have-descriptions",
+      "list-items-not-null",
+      "not-all-fields-null",
+      "typed-ids"
+    ]
+  },
+  "peerDependencies": {
+    "graphql-schema-linter": "^0.2.0"
+  },
+  "devDependencies": {
+    "graphql-schema-linter": "^0.2.0",
+    "mocha": "^6.1.4",
+    "prettier": "^1.17.1"
+  }
+}

@@ -1,0 +1,15 @@
+type Query {
+  hello: String!
+  notAnId: String @lint(disable: ["typed-ids"])
+  listWithNullableItems: [String]
+}
+
+type AllFieldsNull {
+  id: String
+  bar: String
+}
+
+type Nested @lint(disable: ["fields-have-descriptions", "not-all-fields-null"]) {
+  foo: String
+  bar: String @lint(enable: ["fields-have-descriptions"])
+}

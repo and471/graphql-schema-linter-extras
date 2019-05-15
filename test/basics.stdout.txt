@@ -1,0 +1,16 @@
+1:1  The object type `Query` is missing a description.                            types-have-descriptions 
+2:3  The field `Query.hello` is missing a description.                            fields-have-descriptions
+3:3  The field `Query.notAnId` is missing a description.                          fields-have-descriptions
+4:3  The field `Query.listWithNullableItems` is missing a description.            fields-have-descriptions
+4:26 The list field `Query.listWithNullableItems` should not have nullable items. list-items-not-null     
+7:1  The object type `AllFieldsNull` should have at least one non-nullable field. not-all-fields-null     
+7:1  The object type `AllFieldsNull` is missing a description.                    types-have-descriptions 
+7:1  The type `AllFieldsNull` is defined in the schema but not used anywhere.     defined-types-are-used  
+8:3  The field `AllFieldsNull.id` is missing a description.                       fields-have-descriptions
+8:3  The field `AllFieldsNull.id` should be of type ID.                           typed-ids               
+9:3  The field `AllFieldsNull.bar` is missing a description.                      fields-have-descriptions
+12:1 The object type `Nested` is missing a description.                           types-have-descriptions 
+12:1 The type `Nested` is defined in the schema but not used anywhere.            defined-types-are-used  
+14:3 The field `Nested.bar` is missing a description.                             fields-have-descriptions
+
+× 14 errors detected
