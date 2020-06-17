@@ -13,3 +13,8 @@ type Nested @lint(disable: ["fields-have-descriptions", "not-all-fields-null"]) 
   foo: String
   bar: String @lint(enable: ["fields-have-descriptions"])
 }
+
+type Unused @lint(disable: ["types-have-descriptions", "defined-types-are-used"]) {
+  "sample description"
+  foo: String!
+}
